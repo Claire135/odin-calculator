@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.calculator-outline{
+    display: flex;
+    outline: 2px solid black;
+    flex-direction: column;
+    height: 330px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: #a4ff00;
+    padding: 20px;
+    gap: 5px;
+    box-sizing: border-box;
+}
+
+.calculator-screen{
+    display: flex;
+    flex: 0, 0, auto;
+    outline: 2px solid black;
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.button-display{
+    display: flex;
+}
+
+.numbers-button-display{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.operand-button-display{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.indiButton{
+    background-color: white;
+    color: #006400;
+    border-radius: 50px;
+    
+}
+
+.equals-button{
+    background-color: #222222;
+    color: white;
+    border-radius: 50px;
+    width: 210px;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.operand-button-box{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.operandButton{
+    background-color: #ff4d4d;
+    color: white;
+    border-radius: 50px;
+}
+
+.ac-button{
+    background-color: #ffa500;
+    color: white;
+    border-radius: 50px;
+}
+
+button{
+    width: 45px;
+    height: 45px;
+    font-weight: bold;
+    font-size: 20px;
+}

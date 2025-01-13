@@ -30,20 +30,24 @@ body{
     align-items: center;
     margin-bottom: 10px;
     box-sizing: border-box;
-    font-size: 25px;
-    padding-left: 20px;
+    font-size: 20px;
+    padding: 5px 20px;
+    letter-spacing: 2px;
 }
 
 .button-display{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.numbers-button-display{
+#numberButtons{
     display: flex;
-    gap: 10px;
+    gap: 4px;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .indiButton{
@@ -53,26 +57,28 @@ body{
     
 }
 
-.operand-button-display{
+#operandButtons{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 4px;
+    box-sizing: border-box;
 }
 
-#operandButtons{
+.opButton{
     background-color: #ff4d4d;
     color: white;
     border-radius: 50px;
 }
 
 
-#equalsButtonContainer{
+#equalsButton{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
-.equalsButton{
+.eqButton{
     background-color: #222222;
     color: white;
     border-radius: 50px;
@@ -82,10 +88,13 @@ body{
     height: 40px;
 }
 
-.ac-button{
+.restart{
     background-color: #ffa500;
     color: white;
     border-radius: 50px;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
 }
 
 button{

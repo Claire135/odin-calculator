@@ -7,7 +7,7 @@ const numberButtons = document.querySelector("#numberButtons");
 
 function getNumbers(numbers){
   const buttons = [];
-  const num1=[];
+  let num1="";
 
   for (let i=0; i<numbers.length; i++){
     
@@ -18,10 +18,11 @@ function getNumbers(numbers){
       buttons.push(indiButton)
     
       indiButton.addEventListener("click", function() {
-        num1.push(numbers[i]);
-        screenDisplay.textContent = num1.join("")
+        num1 += numbers[i];
+        screenDisplay.textContent = num1;
+
         console.log("you clicked:" + numbers[i])
-        console.log(num1);
+        console.log(`Num1: ${num1}`);
       });
   }
 }

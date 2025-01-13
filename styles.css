@@ -46,7 +46,7 @@ body{
     align-items: center;
 }
 
-#numberButtons{
+.indiButton{
     background-color: white;
     color: #006400;
     border-radius: 50px;
